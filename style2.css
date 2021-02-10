@@ -1,10 +1,480 @@
-        body{
+*{
+    margin: 0;
+    padding: 0;
+}        
+
+body{
             
-            font-family: 'Montserrat', sans-serif;
-            overflow-x: hidden;
-            cursor: context-menu;
-            margin: 0;
-            padding: 0;
-            
-        }
-      
+    font-family: 'Montserrat', sans-serif !important;
+    overflow-x: hidden;
+    cursor: context-menu;
+    margin: 0 auto;
+    background: black;
+    /*fontfamily: UnifrakturCook*/
+    /*fontfamily: LondrinaOutline*/
+    /*fontfamily: PermanentMarker*/
+    
+}
+#navbar{
+    
+    background-color: black;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0px;
+}
+#a{
+    position: absolute;
+    top: 0px;
+    
+}
+#direction{
+    
+    color: white;
+    font-size:40px ;
+    position: absolute;
+    top: 50%;
+    left: 9%;
+}
+#strich{
+    
+    width: 150px;
+    height: 2px;
+    position: absolute;
+    background-color: white;
+    top: 210px
+    
+}
+#paraG{
+    
+    font-size: 22px;
+    position: absolute;
+    top: 250px;
+    text-align:justify
+}
+#schriftSchraeg{
+    
+    font-size: 80px;
+    color: white;
+    transform: rotate(270deg);
+    position: absolute;
+    left: 65%;
+    top: 40%;
+        -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    font-family:    'Nothing You Could Do', cursive;
+    
+   
+    
+    
+}
+#bilder{
+    
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+    
+    
+    
+}
+.logoBild{
+    
+    color: white;
+    font-size: 60px;
+    margin-left: 10px;
+    top: 5px;
+    position: fixed;
+    color:;
+    transition: all 0.5s ease-in-out;
+   
+    
+}
+.logoBild.logoAni{
+    
+    left: 1140px;
+}
+#logoMenuZ{
+    
+    color: black;
+    position: absolute;
+    left: 47%;
+    margin-top: 1em;
+    font-size: 25px;
+    bottom: 340px;
+    font-weight: ;
+    border-bottom: 1px solid black;
+}
+.logo{
+    
+    color: white;
+    position: fixed;
+    left: 48%;
+    margin-top: 1em;
+    font-family: Shadows Into Light, cursive;
+    font-size: 18px;
+    top: 0px;
+        
+}
+
+#r{
+    position: absolute;
+    top: 2px;
+    left: 97%;
+    font-size: 16px;
+}
+#logoMenu{
+    
+    color: black;
+    position: absolute;
+    left: 45%;
+    margin-top: 1em;
+    font-family: Shadows Into Light, cursive;
+    font-size: 18px;
+    bottom: 380px;
+}
+
+#line{
+    
+    background-color: white;
+    width: 2px;
+    height: 100px;
+    position: absolute;
+    left: 25px;
+    top: 70%
+    
+    
+}
+#scroll{
+    
+    color: white;
+    transform: rotate(270deg);
+    top: 83%;
+    position: absolute;
+    left: 4px;
+    font-family:
+
+}
+#arrow{
+    
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 88%;
+    left: 15px;
+    transform: rotate(45deg);
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    animation: animate 1.3s linear infinite;
+}
+@keyframes animate{
+    
+    0%{
+        top: 88%;
+        
+    }
+    50%{
+        top: 97%;
+        
+    }
+    100%{
+        top: 95%;
+        
+    }
+}
+#nachOben{
+    
+    background-color: #262626;
+    width: 50px;
+    position: fixed;
+    border-radius: 50%;
+    height: 50px;
+    right: 0px;
+    top: 90%;
+    cursor: pointer
+}
+#arrowZ{
+    
+     width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    transform: rotate(225deg);
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+}
+.hero-section{
+    
+    width: ;
+    height: 1vh;
+    
+    
+}
+#menuBtn{
+    
+    position: absolute;
+    margin: 1em;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    right: 0px;
+    top: 0px
+    
+ 
+    
+}
+.menu{
+    
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color:bisque;
+    left: -100%;
+    transition: 0.6s ease
+    
+    
+}
+.menu.active{
+    
+    left: 0;
+    
+}
+.close-menu{
+    
+    position: absolute;
+    margin: 1em;
+    font-size: 24px;
+    color: black;
+    z-index: 1;
+    cursor: pointer;
+    right: 0px;
+    
+}
+.nav{
+    
+    position: absolute;
+    left: 37%;
+    top: 45%;
+    color: white;
+    margin: 
+    
+    
+}
+nav ul{
+    
+    list-style: none;
+    
+    
+    
+}
+.main-menu-item{
+    
+    display: inline-block;
+    
+    
+}
+.main-menu-item a{
+    
+    text-decoration: none;
+    color: black;
+    position: absolute
+   
+   
+}
+.main-menu-item a:hover{
+    
+    color:white
+  
+}
+.main-menu-item:not(:last-child){
+    
+    margin-right: 200px;
+     
+}
+
+.main-menu-item:first-child:hover::before{
+    
+    content: "";
+    z-index: ;
+    background: url(img/6.jpg);
+    background-size: cover;
+    width: 280px;
+    height: 400px;
+    position: absolute;
+    display: block;
+    top: -180px;
+    left: -120px;
+    transition: 1s;
+    animation: fade-in 0.7s ease-in-out;
+   
+}
+.main-menu-item:nth-child(2):hover::before{
+    
+    content: "";
+    z-index: ;
+    background: url(img/2.jpg);
+    background-size: cover;
+    width: 280px;
+    height: 400px;
+    position: absolute;
+    display: block;
+    top: -180px;
+    left: 90px;
+     animation: fade-in 0.7s ease-in-out;
+}
+.main-menu-item:nth-child(3):hover::before{
+    
+    content: "";
+    z-index: ;
+    background: url(img/4.jpg);
+    background-size: cover;
+    width: 280px;
+    height: 400px;
+    position: absolute;
+    display: block;
+    top: -180px;
+    left: 300px;
+     animation: fade-in 0.7s ease-in-out;
+}
+.main-menu-item:nth-child(4):hover::before{
+    
+    content: "";
+    z-index: ;
+    background: url(img/3.jfif);
+    background-size: cover;
+    width: 280px;
+    height: 400px;
+    position: absolute;
+    display: block;
+    top: -180px;
+    left: 510px;
+     animation: fade-in 0.7s ease-in-out;
+}
+@keyframes fade-in {
+    
+    0%{
+        opacity: 0;
+        top: -160px;
+    }
+    50%{
+        opacity: ;
+        top: -180px;
+    }
+    100%{
+        opacity:1 ;
+        top: -180px;
+    }
+}
+@media(max-width: 90%){
+    
+    mainMenu {
+        
+        text-align: center;
+        display: block !important;
+        margin: 0;
+        padding: 20px 0
+    }
+}
+.schrift{
+    color: black;
+    font-size: 130px;
+    position: absolute;
+}
+#schrift1{
+    position: absolute;
+    top: -40px
+}
+#schrift1f{
+    position: relative;
+    top: -20px;
+    left:10px;
+    color: aqua
+}
+#schrift2{
+    position: absolute;
+    left: 1150px;
+    top: 260px;
+    color: white
+}
+#schrift3{
+    
+    top: 580px;
+    position: absolute;
+    left: 2200px
+}
+#schrift3f{
+    
+    top: 280px;
+    position: relative;
+    left: 2200px;
+    color: yellow;
+    left: 2200px;
+    text-align: center;
+    
+}
+#basket{
+    
+    position: relative;
+    top: 90px;
+    width: 0px;
+    height: 00px;
+    left: 41%
+}
+
+#whiteBox{
+    
+    background-color: white;
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    top: 1000px
+}
+#sky{
+    
+   position: absolute;
+    top: 2100px;
+    right: 0px
+}
+#schild{
+    
+     position: absolute;
+    top: 2200px;
+    
+}
+#haus{
+    
+    position: absolute;
+    top: 2100px;
+    left: 50%;
+    top: 245%;
+    transform: translate(-50%, -50%)
+}
+#text{
+    
+    position: absolute;
+    font-size: 70px;
+    color: white;
+    top: 210%;
+    font-family: 'Libre Baskerville', serif;
+}
+
+::-webkit-scrollbar{
+    
+    width: 3px;
+    
+}
+::-webkit-scrollbar-track{
+    
+    
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px grey;
+    
+    
+}
+::-webkit-scrollbar-thumb{
+    
+    border-radius: 5px;
+    background-color: white;
+}
