@@ -72,8 +72,9 @@ body{
     position: absolute;
     font-size: 152px;
     font-family: 'Reggae One', cursive;
-    left: 1375px;
-    top: 1379px
+    top: 165%;
+    left: 55.98%;
+    transform: translate(-50%, -50%);
     
 }
 #google{
