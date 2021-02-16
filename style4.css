@@ -15,6 +15,148 @@ body{
     /*fontfamily: PermanentMarker*/
     
 }
+
+#portfolio1{
+    
+    color: white;
+    top: 15%;
+    left: 10%;
+    position: absolute;
+    font-family: 'UnifrakturMaguntia', cursive;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    font-size: 80px
+}
+#portfolio2{
+    
+    color: darkgrey;
+    top: 29%;
+    left: 13%;
+    position: absolute;
+    font-family: 'UnifrakturMaguntia', cursive;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    font-size: 80px
+}
+#portfolio3{
+    
+    color: dimgrey;
+    top: 43%;
+    left: 16%;
+    position: absolute;
+    font-family: 'UnifrakturMaguntia', cursive;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    font-size: 80px
+}
+#programming{
+    
+    position: absolute;
+    color: white;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-family: ;
+}
+#programmingDiv{
+    
+    position: absolute;
+    background-color: white;
+    color: white;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 870px;
+    height: 100px;
+    opacity: 0.1;
+    border-radius: 10px
+}
+#farbe{
+    
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+#farbe2{
+    
+    position: absolute;
+    top: 100%;
+    left: 20%;
+    transform: translate(-50%, -50%)
+}
+#farbe3{
+    
+    position: absolute;
+    top: 100%;
+    left: 80%;
+    transform: translate(-50%, -50%)
+}
+#text{
+    
+    
+}
+#basket{
+    
+    position: absolute;
+    top: 150%;
+    right: 10%
+}
+#basketSchrift{
+    
+    color: white;
+    top: 190%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-family: 'UnifrakturMaguntia', cursive;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    font-size: 80px
+}
+#basketSchrift2{
+    
+    color: black;
+    top: 190%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-family: 'UnifrakturMaguntia', cursive;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    font-size: 80px
+}
+#tennis{
+    
+    position: absolute;
+    top: 250%;
+    left: 10%
+}
+#tennisSchrift{
+    
+    color: black;
+    top: 290%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-family: 'UnifrakturMaguntia', cursive;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    font-size: 80px
+}
+#tennisSchrift2{
+    
+    color: white;
+    top: 290%;
+    left: 1320px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-family: 'UnifrakturMaguntia', cursive;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    font-size: 80px
+}
 #navbar{
     
     background-color: black;
@@ -22,118 +164,14 @@ body{
     height: 70px;
     position: fixed;
     top: 0px;
+    
 }
 #a{
     position: absolute;
     top: 0px;
     
 }
-#dekoE{
-    
-    background-color: white;
-    position: absolute;
-    top: 45%;
-    width: 7px;
-    height: 2px;       
-}
-#dekoZ{
-    
-    background-color: white;
-    position: absolute;
-    top: 48%;
-    width: 7px;
-    height: 2px;     
-}
-#dekoD{
-    
-    background-color: aqua;
-    position: absolute;
-    top: 50%;
-    width: 50px;
-    height: 2px;    
-}
-#dekoV{
-    
-    background-color: white;
-    position: absolute;
-    top: 52%;
-    width: 7px;
-    height: 2px;        
-}
-#dekoF{
-    
-    background-color: white;
-    position: absolute;
-    top: 55%;
-    width: 7px;
-    height: 2px;       
-}
-#direction{
-    
-    color: white;
-    font-size:40px ;
-    position: absolute;
-    top: 50%;
-    left: 9%;
-}
-#und{
-    color: white
-}
-#design{
-    position: absolute;
-    top: 50%;
-    left: 15%
-}
-#strich{
-    
-    width: 150px;
-    height: 2px;
-    position: absolute;
-    background-color: aqua;
-    top: 210px
-    
-}
-#paraG{
-    
-    font-size: 22px;
-    position: absolute;
-    top: 250px;
-    text-align:justify
-}
-#schriftSchraeg{
-    
-    font-size: 80px;
-    color: white;
-    transform: rotate(270deg);
-    position: absolute;
-    left: 65%;
-    top: 40%;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width: 1px;
-    font-family:    'Nothing You Could Do', cursive;
-    animation: animateZwei 15s linear infinite;
- 
-}
-@keyframes animateZwei{
-    
-    0%{
-        top: -57%;
-    }
-    100%{
-        
-        top: 140%;
-    }
-}
-#bilder{
-    
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%)
-    
-    
-    
-}
+
 .logoBild{
     
     color: white;
@@ -141,7 +179,7 @@ body{
     margin-left: 10px;
     top: 5px;
     position: fixed;
-    color:;
+    color: ;
     
    
     
@@ -150,6 +188,11 @@ body{
     
     left: 1140px;
     transition: left 1s linear, font-size 1s linear;
+    
+}
+.logoBild.ani2{
+    
+    color: white;
     
 }
 #logoMenuZ{
@@ -174,7 +217,10 @@ body{
     top: 0px;
         
 }
-
+.logo.ani{
+ 
+    color: white
+}
 #r{
     position: absolute;
     top: 2px;
@@ -190,82 +236,6 @@ body{
     font-family: Shadows Into Light, cursive;
     font-size: 18px;
     bottom: 380px;
-}
-
-#line{
-    
-    background-color: aqua;
-    width: 2px;
-    height: 100px;
-    position: absolute;
-    left: 25px;
-    top: 70%
-    
-    
-}
-#scroll{
-    
-    color: white;
-    transform: rotate(270deg);
-    top: 83%;
-    position: absolute;
-    left: 4px;
-    font-family:
-
-}
-#arrow{
-    
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    top: 88%;
-    left: 15px;
-    transform: rotate(45deg);
-    border-bottom: 2px solid white;
-    border-right: 2px solid white;
-    animation: animate 1.3s linear infinite;
-}
-@keyframes animate{
-    
-    0%{
-        top: 88%;
-        
-    }
-    50%{
-        top: 97%;
-        
-    }
-    100%{
-        top: 95%;
-        
-    }
-}
-#nachOben{
-    
-    background-color: #262626;
-    width: 50px;
-    position: fixed;
-    border-radius: 50%;
-    height: 50px;
-    right: 0px;
-    top: 90%;
-    cursor: pointer
-}
-
-#nachOben:hover{
-    
-    background-color: #404040
-}
-#arrowZ{
-    
-     width: 20px;
-    height: 20px;
-    position: absolute;
-    top: 20px;
-    left: 15px;
-    transform: rotate(225deg);
-    border-bottom: 2px solid white;
-    border-right: 2px solid white;
 }
 #menuBtn{
     
@@ -433,118 +403,39 @@ nav ul{
         padding: 20px 0
     }
 }
-#blackText{
-    
-    color: black;
+
+#a{
     position: absolute;
-    width: 400px;
-    top: 60%;
-    left: 21%;
-    font-size: 30px;
-    
+    top: 0px;
     
 }
-#strich2{
+#nachOben{
     
-    width: 150px;
-    height: 2px;
-    position: absolute;
-    background-color: aqua;
-    top: 500px;
-    left: 540px
-    
-}
-#future{
-    
-    color: aqua;
-    font-size: 50px;
-    font-family: 'League Script', cursive;
-    position: absolute;
-    right: 300px;
-    top: 100px
-}
-.schrift{
-    color: black;
-    font-size: 130px;
-    position: absolute;
-}
-#schrift1{
-    position: absolute;
-    top: -40px
-}
-#schrift1f{
-    position: relative;
-    top: -20px;
-    left:10px;
-    color: aqua
-}
-#schrift2{
-    position: absolute;
-    left: 1150px;
-    top: 260px;
-    color: white
-}
-#schrift3{
-    
-    top: 580px;
-    position: absolute;
-    left: 2200px
-}
-#schrift3f{
-    
-    top: 280px;
-    position: relative;
-    left: 2200px;
-    color: yellow;
-    left: 2200px;
-    text-align: center;
-    
-}
-#basket{
-    
-    position: relative;
-    top: 90px;
-    width: 0px;
-    height: 00px;
-    left: 41%
+    background-color: #262626;
+    width: 50px;
+    position: fixed;
+    border-radius: 50%;
+    height: 50px;
+    right: 0px;
+    top: 90%;
+    cursor: pointer
 }
 
-#whiteBox{
+#nachOben:hover{
     
-    background-color: white;
-    width: 100%;
-    height: 90%;
+    background-color: #404040
+}
+#arrowZ{
+    
+     width: 20px;
+    height: 20px;
     position: absolute;
-    top: 1000px
+    top: 20px;
+    left: 15px;
+    transform: rotate(225deg);
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
 }
-#sky{
-    
-   position: absolute;
-    top: 2100px;
-    right: 0px
-}
-#schild{
-    
-     position: absolute;
-    top: 2050px;
-    
-}
-#haus{
-    
-    position: absolute;
-    top: 2400px;
-    left: 50%;
-    transform: translate(-50%, -50%)
-}
-#text{
-    
-    position: absolute;
-    font-size: 70px;
-    color: white;
-    top: 200%;
-    font-family: 'Libre Baskerville', serif;
-}
-
 ::-webkit-scrollbar{
     
     width: 3px;
@@ -554,7 +445,7 @@ nav ul{
     
     
     border-radius: 5px;
-    box-shadow: inset 0 0 10px black;
+    box-shadow: inset 0 0 10px ;
     
     
 }
