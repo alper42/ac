@@ -541,8 +541,10 @@ nav ul{
     position: absolute;
     font-size: 70px;
     color: white;
-    top: 200%;
+    top: 205%;
     font-family: 'Libre Baskerville', serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
 }
 
 ::-webkit-scrollbar{
