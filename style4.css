@@ -15,7 +15,19 @@ body{
     /*fontfamily: PermanentMarker*/
     
 }
-
+#viereck{
+    
+    position: absolute;
+    top: 150%;
+    left: 5%;
+    width: 700px;
+    height: 800px;
+    background-color: #1a1a1a;
+    color: white;
+    border-radius: 20px;
+text-align: justify;
+    
+}
 #portfolio1{
     
     color: white;
