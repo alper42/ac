@@ -93,6 +93,15 @@ body{
     transform: translate(-50%, -50%);
     
 }
+#pin{
+    
+    position: absolute;
+    top: 19%;
+    color: lightgray;
+    font-size: 120px;
+    left: 66%;
+    
+}
 #write{
     
     font-size: 60px;

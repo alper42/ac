@@ -15,18 +15,99 @@ body{
     /*fontfamily: PermanentMarker*/
     
 }
-#viereck{
+#viereck1{
     
     position: absolute;
-    top: 150%;
-    left: 5%;
+    top: 165%;
+    left: 7%;
     width: 700px;
-    height: 800px;
+    height: 400px;
     background-color: #1a1a1a;
     color: white;
     border-radius: 20px;
-text-align: justify;
+    text-align: justify;
+    font-size: 20px;
+    padding: 20px;
+    font-family:  'Comfortaa', cursive;
     
+}
+#ball{
+  
+    position: absolute;
+    font-size: 100px;
+    left: 45%;
+    top: 67%
+    
+}
+#über1{
+    
+    font-size: 30px;
+    font-family:   'Rock Salt', cursive;
+    text-align: center;
+    padding-bottom: 20px
+    
+}
+#strich{
+    
+    background-color: white;
+    width: 500px;
+    height: 1px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+#trennung{
+    
+    background-color: white;
+    width: 2400px;
+    height: 2px;
+    position: absolute;
+    top: 240%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+#viereck2{
+    
+    position: absolute;
+    top: 265%;
+    right: 7%;
+    width: 700px;
+    height: 400px;
+    background-color: #1a1a1a;
+    color: white;
+    border-radius: 20px;
+    text-align: justify;
+    font-size: 20px;
+    padding: 20px;
+    font-family:  'Comfortaa', cursive;
+    
+}
+#ball2{
+  
+    position: absolute;
+    font-size: 100px;
+    left: 45%;
+    top: 70%
+    
+}
+#über2{
+    
+    font-size: 30px;
+    font-family:   'Rock Salt', cursive;
+    text-align: center;
+    padding-bottom: 20px
+    
+}
+#strich2{
+    
+    background-color: white;
+    width: 500px;
+    height: 1px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
 #portfolio1{
     
@@ -113,13 +194,13 @@ text-align: justify;
     
     position: absolute;
     top: 150%;
-    right: 10%
+    right: 7%
 }
 #basketSchrift{
     
     color: white;
     top: 190%;
-    left: 48%;
+    left: 51%;
     transform: translate(-50%, -50%);
     position: absolute;
     font-family: 'UnifrakturMaguntia', cursive;
@@ -131,7 +212,7 @@ text-align: justify;
     
     color: black;
     top: 190%;
-    left: 63%;
+    left: 66%;
     transform: translate(-50%, -50%);
     position: absolute;
     font-family: 'UnifrakturMaguntia', cursive;
@@ -143,13 +224,13 @@ text-align: justify;
     
     position: absolute;
     top: 250%;
-    left: 10%
+    left: 7%
 }
 #tennisSchrift{
     
     color: black;
     top: 290%;
-    left: 37%;
+    left: 34%;
     transform: translate(-50%, -50%);
     position: absolute;
     font-family: 'UnifrakturMaguntia', cursive;
@@ -161,7 +242,7 @@ text-align: justify;
     
     color: white;
     top: 290%;
-    left: 1320px;
+    left: 48.8%;
     transform: translate(-50%, -50%);
     position: absolute;
     font-family: 'UnifrakturMaguntia', cursive;
@@ -169,6 +250,7 @@ text-align: justify;
     -webkit-text-stroke-width: 1px;
     font-size: 80px
 }
+
 #navbar{
     
     background-color: black;
