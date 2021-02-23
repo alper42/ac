@@ -370,7 +370,12 @@ nav ul{
 }
 .nachOben{
     
-    background-color: #262626;
+   opacity: 0
+    
+}
+.nachOben.buttonWeg{
+    
+     background-color: #262626;
     width: 50px;
     position: fixed;
     border-radius: 50%;
@@ -378,11 +383,8 @@ nav ul{
     right: 0px;
     top: 90%;
     cursor: pointer;
+    opacity: 1;
     
-}
-.nachOben.buttonWeg{
-    
-    display: none
 }
 .nachOben:hover{
     

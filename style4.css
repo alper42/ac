@@ -29,15 +29,26 @@ body{
     font-size: 20px;
     padding: 20px;
     font-family:  'Comfortaa', cursive;
+    transition: 1s ease-in-out
     
+}
+#viereck1:hover{
+    
+    border: 1px solid white;
 }
 #ball{
   
     position: absolute;
     font-size: 100px;
     left: 45%;
-    top: 67%
+    top: 67%;
+    transition: 0.5s ease-in-out;
+    display: flex
+}
+#ball:hover{
     
+    color:sandybrown;
+    transform: rotate(90deg)
 }
 #über1{
     
@@ -63,7 +74,7 @@ body{
     width: 2400px;
     height: 2px;
     position: absolute;
-    top: 240%;
+    top: 245%;
     left: 50%;
     transform: translate(-50%, -50%)
 }
@@ -83,13 +94,24 @@ body{
     font-family:  'Comfortaa', cursive;
     
 }
+#viereck2:hover{
+    
+    border: 1px solid white
+}
 #ball2{
   
     position: absolute;
     font-size: 100px;
     left: 45%;
-    top: 70%
+    top: 70%;
+     transition: 0.5s ease-in-out;
+    display: flex
     
+}
+#ball2:hover{
+    
+    color:springgreen;
+    transform: rotate(90deg)
 }
 #über2{
     
@@ -503,19 +525,25 @@ nav ul{
     top: 0px;
     
 }
-#nachOben{
+.nachOben{
     
-    background-color: #262626;
+    opacity: 0
+}
+.nachOben.buttonWeg{
+    
+     background-color: #262626;
     width: 50px;
     position: fixed;
     border-radius: 50%;
     height: 50px;
     right: 0px;
     top: 90%;
-    cursor: pointer
+    cursor: pointer;
+    opacity: 1;
+    transition: 1s ease-in-out
+    
 }
-
-#nachOben:hover{
+.nachOben:hover{
     
     background-color: #404040
 }

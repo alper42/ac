@@ -190,7 +190,7 @@
     </div>
     <a href="#a">
     
-        <div id="nachOben">
+        <div class="nachOben">
     
             <div id="arrowZ"></div>
     
@@ -332,6 +332,20 @@
             }
         });
         
+        $(window).on("scroll", function() {
+            
+            if($(window).scrollTop() > 200) {
+                
+                    $(".nachOben").addClass("buttonWeg");
+               
+            }
+            else{
+                
+                 $(".nachOben").removeClass("buttonWeg");
+           
+                
+            }
+        });
     </script>
   
 </body>
