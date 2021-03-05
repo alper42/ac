@@ -130,14 +130,7 @@ body{
     transform: translate(-50%, -50%);
     
 }
-#googlePlus{
-    
-    color: ;
-    font-size: 50px;
-    position: absolute;
-    top: 310px;
-    left: 10px;
-}
+
 #map{
     
     position: absolute;
@@ -159,7 +152,8 @@ body{
     
     font-size: 60px;
     position: absolute;
-    top: 20%
+    top: 20%;
+    left: 5px
 }
 #email{
     
@@ -167,7 +161,7 @@ body{
     position: absolute;
     top: 35%;
     color: #cccccc;
-    left: 90px
+    left: 20px
 }
 #navbar{
     
