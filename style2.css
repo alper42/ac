@@ -19,7 +19,7 @@ body{
     
     background-color: black;
     width: 100%;
-    height: 70px;
+    height: 85px;
     position: fixed;
     top: 0px;
 }
@@ -138,8 +138,7 @@ body{
     
     color: white;
     font-size: 60px;
-    margin-left: 10px;
-    top: 5px;
+    margin: 0.2em;
     position: fixed;
     color:;
     
@@ -275,22 +274,26 @@ body{
 #menuBtn{
     
     position: absolute;
-    margin: 1em;
+    margin: 0.5em;
     font-size: 24px;
     color: white;
     cursor: pointer;
     right: 0px;
     top: 0px;
-    display: flex
+    display: flex;
+     width: 60px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s ;
     
  
     
 }
 #menuBtn:hover{
     
-    color: ;
-    transition: 0.4s linear;
-     transform: rotate(180deg)
+   border: 1px solid white;
+    border-radius: 50%;
 }
 .menu{
     
@@ -312,21 +315,26 @@ body{
 .close-menu{
     
     position: absolute;
-    margin: 1em;
+    margin: 0.5em;
     font-size: 24px;
     color: black;
-    z-index: 1;
     cursor: pointer;
     right: 0px;
-    display: flex
+    display: flex;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s ;
     
 }
 .close-menu:hover{
     
-    color: springgreen;
-    transition: 0.4s ease-in-out;
-    transform: rotate(90deg);
+    border: 1px solid black;
+    border-radius: 50%;
+    
 }
+
 .nav{
     
     position: absolute;
@@ -363,7 +371,6 @@ nav ul{
 .main-menu-item a:hover{
     
     color:white;
-    font-size: 20px;
     
   
 }
@@ -455,6 +462,66 @@ nav ul{
         margin: 0;
         padding: 20px 0
     }
+}
+
+#insta{
+    
+    color:  black;
+    position: absolute;
+    font-size: 30px;
+    top: 2500%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+    transition: 0.2s linear;
+    display: flex;
+    cursor: pointer
+        
+    
+}
+#insta:hover{
+    
+    color: #bc2a8d;
+    font-size: 60px;
+    background-image: linear-gradient(to right, #fccc63, #fbad50, #e95950, #cd486b, #bc2a8d, #8a3ab9, #4c68d7);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+#twitter{
+    
+    color:  black;
+    position: absolute;
+    font-size: 30px;
+    top: 2500%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+     transition: 0.2s ease-in-out;
+    display: flex;
+    cursor: pointer  
+ 
+}
+#twitter:hover{
+    
+    color: #1DA1F2;
+    font-size: 60px;
+}
+#google{
+    
+    color:  black;
+    position: absolute;
+    font-size: 30px;
+    top: 2500%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+     transition: 0.2s linear;
+    display: flex;
+    cursor: pointer
+    
+}
+#google:hover{
+    
+    color: #DD4B39;
+    font-size: 60px;
+    
 }
 #blackText{
     

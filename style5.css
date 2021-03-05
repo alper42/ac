@@ -15,6 +15,59 @@ body{
     /*fontfamily: PermanentMarker*/
     
 }
+
+#schriftSchraeg2{
+    
+    font-size: 80px;
+    color: ;
+    transform: rotate(270deg);
+    position: absolute;
+    left: 65%;
+    top: 40%;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    font-family:    'Nothing You Could Do', cursive;
+    animation: contact 15s linear infinite;
+    display: flex
+}
+#farbe{
+    
+    -webkit-text-fill-color: black;
+}
+@keyframes contact{
+    
+    0%{
+        top: -70%;
+    }
+    100%{
+        
+        top: 100%;
+    }
+}
+#kastenWeis{
+    
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 130%;
+    background-color: white;
+    right: 250px
+}
+#call{
+    
+    position: absolute;
+    top: 195%;;
+    left: 47%;
+    font-size: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color:lightcyan
+}
 #contact{
     
     background-color: ;
@@ -77,13 +130,13 @@ body{
     transform: translate(-50%, -50%);
     
 }
-#google{
+#googlePlus{
     
     color: ;
     font-size: 50px;
     position: absolute;
-    top: 380px;
-    left: 5px;
+    top: 350px;
+    left: 10px;
 }
 #map{
     
@@ -120,7 +173,7 @@ body{
     
     background-color: ;
     width: 100%;
-    height: 70px;
+    height: 85px;
     position: fixed;
     top: 0px;
     
@@ -135,8 +188,7 @@ body{
     
     color: ;
     font-size: 60px;
-    margin-left: 10px;
-    top: 5px;
+     margin: 0.2em;
     position: fixed;
     color: ;
     
@@ -199,15 +251,25 @@ body{
 #menuBtn{
     
     position: absolute;
-    margin: 1em;
+    margin: 0.5em;
     font-size: 24px;
     color: ;
     cursor: pointer;
     right: 0px;
-    top: 0px
-    
+    top: 0px;
+     display: flex;
+     width: 60px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s ;
  
     
+}
+#menuBtn:hover{
+    
+   border: 1px solid black;
+    border-radius: 50%;
 }
 .menu{
     
@@ -229,12 +291,24 @@ body{
 .close-menu{
     
     position: absolute;
-    margin: 1em;
+    margin: 0.5em;
     font-size: 24px;
     color: black;
     z-index: 1;
     cursor: pointer;
     right: 0px;
+       display: flex;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s ;
+    
+}
+.close-menu:hover{
+    
+    border: 1px solid black;
+    border-radius: 50%;
     
 }
 .nav{
@@ -362,7 +436,65 @@ nav ul{
         padding: 20px 0
     }
 }
-
+#insta{
+    
+    color:  black;
+    position: absolute;
+    font-size: 30px;
+    top: 2500%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+    transition: 0.2s linear;
+    display: flex;
+    cursor: pointer
+        
+    
+}
+#insta:hover{
+    
+    color: #bc2a8d;
+    font-size: 60px;
+    background-image: linear-gradient(to right, #fccc63, #fbad50, #e95950, #cd486b, #bc2a8d, #8a3ab9, #4c68d7);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+#twitter{
+    
+    color:  black;
+    position: absolute;
+    font-size: 30px;
+    top: 2500%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+     transition: 0.2s ease-in-out;
+    display: flex;
+    cursor: pointer  
+ 
+}
+#twitter:hover{
+    
+    color: #1DA1F2;
+    font-size: 60px;
+}
+#google{
+    
+    color:  black;
+    position: absolute;
+    font-size: 30px;
+    top: 2500%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+     transition: 0.2s linear;
+    display: flex;
+    cursor: pointer
+    
+}
+#google:hover{
+    
+    color: #DD4B39;
+    font-size: 60px;
+    
+}
 #a{
     position: absolute;
     top: 0px;
