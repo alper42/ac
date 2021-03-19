@@ -34,7 +34,8 @@ body{
 }
 #viereck1:hover{
     
-    border: 1px solid white;
+       border-bottom: 1px solid white;
+    border-top: 1px solid white
 }
 #ball{
   
@@ -92,11 +93,15 @@ body{
     font-size: 20px;
     padding: 20px;
     font-family:  'Comfortaa', cursive;
-    
+     backdrop-filter: blur(20px);
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    display: block;
+    overflow: hidden;
 }
 #viereck2:hover{
     
-    border: 1px solid white
+    border-bottom: 1px solid white;
+    border-top: 1px solid white
 }
 #ball2{
   
@@ -610,7 +615,7 @@ nav ul{
 }
 .nachOben.buttonWeg{
     
-     background-color: #262626;
+     background-color: ;
     width: 50px;
     position: fixed;
     border-radius: 50%;
@@ -619,7 +624,7 @@ nav ul{
     top: 90%;
     cursor: pointer;
     opacity: 1;
-    
+    border: 1px solid white
 }
 .nachOben:hover{
     
