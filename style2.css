@@ -117,26 +117,30 @@ body{
 .direction{
     
     color: white;
-    font-size: 50px ;
+    font-size: 45px ;
     position: absolute;
-    top: 50%;
-    left: 9%;
-    font-family: 'Josefin Sans', sans-serif;
+    top: 49%;
+    left: 7.9%;
+    font-family: 'Gloria Hallelujah', cursive;
 }
 #und{
     color: white;
-    font-size: 90px
+    font-size: 90px;
+     font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    top: 64.8%;
+    left: 7.6%
 }
 #design{
     
     color: grey;
     position: absolute;
-    top: 45%;
-    left: 17%;
+    top: 63.5%;
+    left: 11.5%;
       -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 0.9px;
     font-family:  'Lato', sans-serif;
-    font-size: 95px
+    font-size: 90px
 }
 #strich{
     
@@ -144,16 +148,20 @@ body{
     height: 2px;
     position: absolute;
     background-color: aqua;
-    top: 210px
+     top: 75%;
+    left: 9%
     
 }
 #paraG{
     
     font-size: 22px;
     position: absolute;
-    top: 250px;
+    top: 78%;
     text-align:justify;
     font-family: 'Comfortaa', sans-serif;
+    color: white;
+    width: 570px;
+    left: 8%;
 }
 #schriftSchraeg{
     
